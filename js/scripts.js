@@ -41,7 +41,6 @@ $(document).ready(function () {
     }
     $("#funds").text("$" + account.balance);
   });
-  $Account(".btn");
   $("#withdraw-btn").click(function () {
     $("#process").text("Withdraw");
     $("#deposit-btn").removeClass("btn-active");
